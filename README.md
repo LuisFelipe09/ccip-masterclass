@@ -25,3 +25,10 @@ exercise 1
 CCIPTokenSender deployed to 0xfBE3320DEe3bAe6B90Ea18830930b3A34a02AAC9
 
 Tokens sent, transaction hash: 0xa499e89e72744a67e4b72f6e4a847f5f24aa8af53fe9a9d727174e645cc3ac57
+
+exercise 2
+
+CCIPTokenAndDataSender deployed to 0x048e557f8a7325092C32Aec47D921a363bEE67A2
+CCIPTokenAndDataReceiver deployed to 0x38aC3a3d17e38b7B4fFc07c28Ad6f3aECeD5A4d8
+
+Tokens And Data sent, transaction hash: 0xaeacdecdad712733f04fd18aa4081b6ad98f949da4be4596cc61b3f384b9c59c
