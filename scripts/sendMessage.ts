@@ -8,13 +8,13 @@ async function main() {
     return 1;
   }
 
-  const ccipSenderAddress = `0xff67AC887dfED5212091C7b0B11b6D02BB17D19F`;
+  const ccipSenderAddress = `0xA6403f4F3051ed80640380F00fB606225965F1a7`;
   const ccipReceiverAddress = `0x1582702fDBf5dBbA4191D3dA70f6681f9AcC6E22`;
   const someText = `CCIP Masterclass`;
   const destinationChainSelector = ethers.BigNumber.from("16015286601757825753");
 
   const ccipSenderFactory = await ethers.getContractFactory( "CCIPSender_Unsafe");
-  const ccipSender = await ccipSenderFactory.attach(ccipSenderAddress)
+  const ccipSender =  ccipSenderFactory.attach(ccipSenderAddress)
   ccipSender.connect(ethers.provider);
   //const ccipSender = await ccipSenderFactory.connect(ccipSenderAddress, ethers.provider);
 
